@@ -1,0 +1,14 @@
+"""
+Belajar python
+TechnoNatura Jogja
+"""
+print("hello python")
+print(13)
+
+Nama = "Uqi" #Kata atau kalimat yang harus pakai petik
+Hobi = "Bersepeda, Main game, Design, DLL"
+Umur = 13 #tipe data integer atau angka
+Laki = True #tipe data boolean, True atau False
+Nama_lengkap = "Syauqi Jannatan a." #snake_case
+
+print("Nama saya adalah", Nama+ "," " dan nama lengkap saya adalah", Nama_lengkap)
