@@ -1,0 +1,29 @@
+#1
+inventaris = ["Laptop", "Scanner", "Printer", "Monitor"]
+print(inventaris)
+#2
+inventaris.append("Keyboard")
+inventaris.append(inventaris)
+print(inventaris)
+#3
+karyawan = ["andi", "budi", "citra", "dewi"]
+print(karyawan)
+#4
+karyawan.append("eka")
+print(karyawan)
+#5
+Harga_produk = ["50.000", "100.000", "150.000", "250.000", "750.000"]
+print(Harga_produk)
+#6
+Harga_produk.append("100.000")
+print(Harga_produk)
+#7
+inventaris.remove("Scanner")
+print(inventaris)
+#8
+karyawan.remove("budi")
+print(karyawan)
+#9
+print(len(inventaris))
+#10
+print(len(karyawan))
