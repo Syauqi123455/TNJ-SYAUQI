@@ -1,0 +1,12 @@
+keranjang_1 = ["apel", "cerry", "duku"]
+keranjang_2 = ["jeruk", "lemon", "mangga"]
+
+total_buah = keranjang_1 + keranjang_2
+print(total_buah)
+
+level_7 = ["akhdan", "uqi", "alghar", "zaki"]
+level_8 = ["satria", "alfath", "athar", "agha"]
+level_9 = ["yafi", "ata"]
+
+total_anak_suku_techno = level_7 + level_8 + level_9
+print(total_anak_suku_techno)
