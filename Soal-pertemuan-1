@@ -1,0 +1,19 @@
+print("Robot siap beroperasi")
+print("Robot bergerak maju")
+
+kecepatan = 10
+
+print("Kecepatan robot:", kecepatan)
+
+arah = "kiri"
+kecepatan = 5 
+durasi = 10
+
+print("Robot bergerak ke", arah)
+print("kecepatan", kecepatan)
+print("durasi", durasi)
+
+status1 = "Robot Aktif"
+status2 = "Menunggu Perintah"
+
+print("Status Robot", status1, "dan", status2)
