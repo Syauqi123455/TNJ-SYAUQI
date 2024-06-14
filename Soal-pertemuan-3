@@ -1,0 +1,36 @@
+tuple_1 = (2, 3, 4)
+
+tuple_2 = ("numenor", "valinor")
+
+tuple_3 = (24, False, "hello python")
+
+print(tuple_1)
+print(tuple_2)
+print(tuple_3)
+
+print(tuple_1[1])
+list_1 = list(tuple_1)
+list_1[0] = 5
+tuple_1 = tuple(list_1)
+print(tuple_1)
+
+#soal 1
+lokasi = ("jogja", -27836, -32273)
+print("kota", lokasi[0])
+print("lintang",lokasi[1])
+print("bujur",lokasi[2])
+#soal 2
+produk = ("laptop", 15000000, 20)
+print("harga",produk[1])
+#soal 3
+karyawan = ("alice", "engineering",50)
+print("departemen", (karyawan[1]))
+print("masa kerja", (karyawan[0]), ":",(karyawan[2]))
+#soal4
+config = ("localhost","admin", "password","database_name")
+print(config[1])
+print(config[3])
+#soal 5
+mahasiswa = ("banyu", "mtk", ["20", "25", "30"])
+print("nama", (mahasiswa[0]))
+print("nilai", (mahasiswa[2]))
