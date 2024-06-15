@@ -1,0 +1,28 @@
+#dictionary karyawan berisi data nama dan pekerjaan
+
+karyawan = {
+    "nama": "vincent",
+    "pekerjaan": "ambil makan"
+}
+
+print(karyawan)
+karyawan["pekerjaan"] = "ambil_makan"
+print(karyawan)
+karyawan["instansi"] = "kebun_sawit"
+print(karyawan)
+
+karyawan.pop("nama")
+print(karyawan)
+
+
+buku = {}
+judul = "Formula_1"
+penulis = "david_treymayne"
+tahun =  "2015"
+
+buku["judul"] = judul 
+print(buku)
+buku["penulis"] = penulis
+print(buku)
+buku["tahun"] = tahun
+print(buku)
